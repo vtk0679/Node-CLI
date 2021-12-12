@@ -1,0 +1,29 @@
+{
+  "name": "node-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtk0679/Node-CLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vtk0679/Node-CLI/issues"
+  },
+  "homepage": "https://github.com/vtk0679/Node-CLI#readme",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "uuid": "^8.3.2"
+  },
+  "dev-dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
